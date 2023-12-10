@@ -1,4 +1,4 @@
-package org.example.structural.adapter.problem_1;
+package org.example.structural.adapter.problem1;
 
 public class Bugatti extends Vehicle {
     private static final String BRAND = "Bugatti";

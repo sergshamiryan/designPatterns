@@ -1,4 +1,4 @@
-package org.example.structural.adapter.problem_1;
+package org.example.structural.adapter.problem1;
 
 public abstract class Vehicle {
     String brand;

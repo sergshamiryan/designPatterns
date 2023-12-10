@@ -1,4 +1,4 @@
-package org.example.structural.adapter.problem_1;
+package org.example.structural.adapter.problem1;
 
 
 public class Maserati extends Vehicle {

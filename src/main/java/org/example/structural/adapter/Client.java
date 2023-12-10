@@ -1,8 +1,8 @@
 package org.example.structural.adapter;
 
-import org.example.structural.adapter.problem_1.Maserati;
-import org.example.structural.adapter.problem_1.MaseratiVehicleKMHAdapter;
-import org.example.structural.adapter.problem_1.Vehicle;
+import org.example.structural.adapter.problem1.Maserati;
+import org.example.structural.adapter.problem1.MaseratiVehicleKMHAdapter;
+import org.example.structural.adapter.problem1.Vehicle;
 
 public class Client {
     public static void main(String[] args) {

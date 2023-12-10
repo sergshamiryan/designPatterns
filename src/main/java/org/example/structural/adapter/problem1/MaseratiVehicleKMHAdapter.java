@@ -1,4 +1,4 @@
-package org.example.structural.adapter.problem_1;
+package org.example.structural.adapter.problem1;
 
 public class MaseratiVehicleKMHAdapter extends VehicleKMHAdapter {
     private static final String BRAND = "Maserati";

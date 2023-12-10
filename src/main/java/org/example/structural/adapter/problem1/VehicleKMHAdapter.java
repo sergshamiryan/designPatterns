@@ -1,6 +1,4 @@
-package org.example.structural.adapter.problem_1;
-
-import java.util.concurrent.Flow;
+package org.example.structural.adapter.problem1;
 
 public abstract class VehicleKMHAdapter extends Vehicle
         implements VehicleAdapterService {
@@ -8,9 +6,6 @@ public abstract class VehicleKMHAdapter extends Vehicle
     public VehicleKMHAdapter(String brand) {
         super(brand);
     }
-
-
-
 
     public int getSpeed() {
         return speedKMH();
