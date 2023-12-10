@@ -24,9 +24,8 @@ public class Client {
         access.grantInternetAccess();
     }
 
-    public static void proxy3(){
-        Operation operation = new ProxyOperation(null);
+    public static void proxy3() {
+        Operation operation = new ProxyOperation("lowerCaseWord");
         operation.executeUpperCasing();
     }
-
 }
