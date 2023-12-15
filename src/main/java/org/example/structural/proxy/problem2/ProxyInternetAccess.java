@@ -17,9 +17,4 @@ public class ProxyInternetAccess implements GrantInternetAccess {
         RealInternetAccess realInternetAccess = new RealInternetAccess(employeeRank);
         realInternetAccess.grantInternetAccess();
     }
-
-    @Override
-    public void restrictInternetAccess() {
-
-    }
 }
