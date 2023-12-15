@@ -4,7 +4,6 @@ import java.time.LocalDateTime;
 import java.util.Objects;
 
 public class ProxyOperation implements Operation {
-
     private final String lowerCaseWord;
     private final RealOperation realOperation;
 
@@ -16,10 +15,12 @@ public class ProxyOperation implements Operation {
 
     @Override
     public String executeUpperCasing() {
-        System.out.printf("""
-                Time operation is applied : %s
-                The string before : %s
-                """, LocalDateTime.now(), this.lowerCaseWord);
+        System.out.printf(
+                """
+                        Time operation is applied : %s
+                        The string before : %s
+                        """,
+                LocalDateTime.now(), this.lowerCaseWord);
         String upperCase = realOperation.executeUpperCasing();
         System.out.printf("String after upper casing : %s\n", upperCase);
         return upperCase;
