@@ -22,6 +22,7 @@ public class Client {
     public static void proxy2() {
         GrantInternetAccess access = new ProxyInternetAccess(1);
         access.grantInternetAccess();
+
     }
 
     public static void proxy3() {
