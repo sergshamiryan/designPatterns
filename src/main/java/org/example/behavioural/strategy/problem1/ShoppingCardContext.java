@@ -1,4 +1,4 @@
-package org.example.behavioural.strategy;
+package org.example.behavioural.strategy.problem1;
 
 import java.util.List;
 

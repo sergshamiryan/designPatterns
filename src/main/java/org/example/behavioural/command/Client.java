@@ -13,7 +13,8 @@ public class Client {
     public static void command1() {
         TextFIleOperationInvoker opsInvoker = new TextFIleOperationInvoker();
         TextFile textFile = new TextFile("Friend");
-        System.out.println(opsInvoker.executeOperation(new OpenTextFileOperation(textFile)));
+        System.out.println(
+                opsInvoker.executeOperation(new OpenTextFileOperation(textFile)));
     }
 
     public static void command2() {
