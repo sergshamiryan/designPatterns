@@ -1,13 +1,13 @@
 package org.example.behavioural.command.problem2;
 
-public class Windows implements FileSystemReceiver{
+public class LinuxReceiver implements FileSystemReceiver{
     @Override
     public void openFile() {
-        System.out.println("Opening: Windows");
+        System.out.println("Opening: Linux");
     }
 
     @Override
     public void saveFile() {
-        System.out.println("Saving: Windows");
+        System.out.println("Saving: Linux");
     }
 }

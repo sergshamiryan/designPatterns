@@ -7,6 +7,7 @@ import org.example.behavioural.command.problem1.TextFile;
 import org.example.behavioural.command.problem2.FIleInvoker;
 import org.example.behavioural.command.problem2.FileSystemReceiver;
 import org.example.behavioural.command.problem2.OpenFileCommand;
+import org.example.behavioural.command.sofarchandcleandesign.*;
 
 public class Client {
 
@@ -27,7 +28,18 @@ public class Client {
         fIleInvoker.execute();
     }
 
+    public static void command3() {
+        //2 receiver
+        Light light = new Light();
+        //1 command
+        Command turnOnCommand = new TurnOnCommand(light);
+        Command turnOffCommand = new TurnOffCommand(light);
+        //3 Invoker
+        RemoteControl remoteControl = new RemoteControl(turnOnCommand);
+        remoteControl.execute();
+    }
+
     public static void main(String[] args) {
-        command2();
+        command3();
     }
 }

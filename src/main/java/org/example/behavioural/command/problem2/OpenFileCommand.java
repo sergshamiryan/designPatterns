@@ -1,6 +1,6 @@
 package org.example.behavioural.command.problem2;
 
-public class OpenFileCommand implements Command{
+public class OpenFileCommand implements Command {
     private FileSystemReceiver fileSystemReceiver;
 
     public OpenFileCommand(FileSystemReceiver fileSystemReceiver) {
